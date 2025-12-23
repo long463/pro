@@ -23,5 +23,7 @@ if (isset($_GET['id'])) {
     } else {
         echo "Delete failed: " . $con->error;
     }
+} else {
+    echo "ID not found";
 }
 ?>
